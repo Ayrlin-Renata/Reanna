@@ -151,6 +151,7 @@ return
 Run, calc
 return
 
+; should probably use sendRaw or something past the first one cuz this is reliable for different format text boxes but slow. 
 ::--chelp:: 
 SendInput, Type "--chelp " in a multi-line text box to view full help. `n
 SendInput, In text mode, type "--c ", your expression, then "=". `n
